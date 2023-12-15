@@ -1,16 +1,21 @@
-TechLadd Assignment Aaxistest
+# TechLadd Assignment Aaxistest
 
-**Installation**
+## Requirements
+
+- Docker
+- Symfony CLI
+
+## Installation
 
 - Execute `docker-compose up -d`.
 - Execute the migration to setup database table using `docker-compose exec php php bin/console doctrine:migrations:migrate`
 
-**Testing**
+## Testing
 
 - Import `TechLadd Testing.postman_collection.json` collection file into postman.
 - Test `Load`, `Update` & `List` endpoint implementation.
 
-**Assumptions**
+## Assumptions
 
 I made the following assumptions on token generation since there isn't an actual user available in the project.
 
